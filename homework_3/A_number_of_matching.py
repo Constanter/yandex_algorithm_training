@@ -14,5 +14,4 @@ def test(func):
 def func(lst):
     return len(set.intersection(set(list_1), set(list_2)))
 
-
 test(func)
